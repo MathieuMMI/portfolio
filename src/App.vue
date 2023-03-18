@@ -1,7 +1,7 @@
 <template>
   <header v-if="showHeader" class="relative flex px-5 xl:pb-[11px] mb-14 lg:mb-32">
     <nav>
-      <Router-link to="/accueil"><h1 class="absolute">Mathieu</h1></Router-link>
+      <button class="absolute"><h1 v-on:click="handleClick">Mathieu</h1></button>
       <ul class="hidden lg:flex absolute right-0">
         <svg
           width="815"
@@ -16,13 +16,7 @@
         <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Travaux</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
-        <li class="menu-item ml-10 text-left font-medium">
-          <RouterLink to="#">À propos</RouterLink>
-          <ul class="sub-menu">
-            <li class="sublink"><RouterLink to="/contact">Contact</RouterLink></li>
-            <li class="sublink"><RouterLink to="/compte">Connexion</RouterLink></li>
-          </ul>
-        </li>
+        <li class="ml-10 text-left font-medium"><RouterLink to="/contact">Contact</RouterLink></li>
         </div>
       </ul>
       <div>
@@ -33,13 +27,7 @@
       <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Travaux</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
-        <li class="menu-item ml-10 text-left font-medium">
-          <RouterLink to="#">À propos</RouterLink>
-          <ul class="sub-menu">
-            <li class="sublink"><RouterLink to="/contact">Contact</RouterLink></li>
-            <li class="sublink"><RouterLink to="/compte">Connexion</RouterLink></li>
-          </ul>
-        </li>
+        <li class="ml-10 text-left font-medium"><RouterLink to="/contact">Contact</RouterLink>        </li>
     </ul>
   </div>
     </nav>
@@ -73,6 +61,15 @@ import Linkedin from '@/components/icons/Linkedin.vue'
 
 export default {
     components: { Linkedin },
+    methods: {
+    handleClick(event) {
+      if (event.detail === 3) { // triple clic
+        this.$router.push('/compte');
+      } else { // clic simple ou double
+        this.$router.push('/accueil');
+      }
+     }
+    },
     data() {
     return {
       loggedIn: false,
