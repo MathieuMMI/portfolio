@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    font-family: "inter";
+    font-size: 2rem;
+}
+
+h2, h3 {
+    font-family : "eb-garamond";
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+p {
+    font-family : "source-sans-pro"
+}
+li {
+  font-family : "eb-garamond";
+  font-size: 2rem;
+}
+
+button {
+  font-family:  "eb-garamond";
+  font-size: 2rem;
+}
+
+@media (min-width: 540px) {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+  }
+
+@media (min-width: 1000px) {
+ 
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  button {
+    font-size: 3rem;
+  }
+}
