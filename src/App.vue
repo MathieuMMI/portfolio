@@ -1,9 +1,8 @@
 <template>
-  <header class="relative flex px-5 xl:pb-[11px] mb-14 lg:mb-32">
-    <menu-icon />
+  <header v-if="showHeader" class="relative flex px-5 xl:pb-[11px] mb-14 lg:mb-32">
     <nav>
-      <Router-link to="/"><h1 class="absolute">Mathieu</h1></Router-link>
-      <ul class="hidden xl:flex absolute right-0">
+      <Router-link to="/accueil"><h1 class="absolute">Mathieu</h1></Router-link>
+      <ul class="hidden lg:flex absolute right-0">
         <svg
           width="815"
           height="73"
@@ -26,12 +25,29 @@
         </li>
         </div>
       </ul>
+      <div>
+    <button class="flex lg:hidden menu-icon" @click="showMenu = !showMenu">
+      <img src="public/img/menu-icon.png" alt="Menu">
+    </button>
+    <ul v-if="showMenu" class="menu">
+      <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
+        <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Travaux</RouterLink></li>
+        <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
+        <li class="menu-item ml-10 text-left font-medium">
+          <RouterLink to="#">À propos</RouterLink>
+          <ul class="sub-menu">
+            <li class="sublink"><RouterLink to="/contact">Contact</RouterLink></li>
+            <li class="sublink"><RouterLink to="/compte">Connexion</RouterLink></li>
+          </ul>
+        </li>
+    </ul>
+  </div>
     </nav>
   </header>
   <main class="dark:bg-black dark:text-white">
     <RouterView />
   </main>
-  <footer class="sm:flex bg-stone-900 pt-[15px] sm:pl-10 pb-5 mt-32 lg:mt-52">
+  <footer v-if="showFooter" class="sm:flex bg-stone-900 pt-[15px] sm:pl-10 pb-5 mt-32 lg:mt-52">
     <ul class="flex-col m-auto text-center">
       <li>
         <router-link to="/mentions">
@@ -51,17 +67,18 @@
 </template>
 
 <script>
-import MenuIcon from "@/components/icons/MenuIcon.vue";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
 import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-auth.js";
 import Linkedin from '@/components/icons/Linkedin.vue'
 
 export default {
-    components: { MenuIcon, Linkedin },
+    components: { Linkedin },
     data() {
     return {
       loggedIn: false,
       showHeader: true,
+      showMenu: false,
+      showFooter: true,
     }
   },
   watch: {
@@ -70,6 +87,11 @@ export default {
         this.showHeader = false
       } else {
         this.showHeader = true
+      }
+      if (to.path === '/') {
+        this.showFooter = false
+      } else {
+        this.showFooter = true
       }
     }
   },
@@ -83,6 +105,45 @@ export default {
 </script>
 
 <style>
+  .menu-icon {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  
+  .menu-icon img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
 .sublink {
   font-size: 1.5rem;
 }
@@ -95,6 +156,17 @@ export default {
   background-color: #251E70;
   padding: 15px;
   text-align: center;
+}
+
+
+@media (min-width: 540px) {
+  .sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #251E70;
+  padding: 15px;
+  text-align: center;
+}
 }
 .menu-item:hover  .sub-menu {
   display: block;

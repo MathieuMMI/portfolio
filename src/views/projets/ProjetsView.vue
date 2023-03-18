@@ -1,5 +1,5 @@
 <template>
-  <h2 class="mt-5 mb-7 text-center font-semibold">Projets</h2>
+  <h2 class="mt-5 mb-7 text-center font-semibold">Projets collectifs</h2>
   <div class="md:ml-8 md:mr-8">
     <figure v-for="projets in listeProjets" :key="projets.nom" class="flex flex-col ml-5 mr-5 lg:ml-10">
       <figcaption>

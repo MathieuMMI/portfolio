@@ -25,11 +25,13 @@ import DeleteTravaux from '../views/travaux/DeleteTravaux.vue'
 import ContactView from '../views/ContactView.vue'
 import MentionsView from '../views/MentionsView.vue'
 import Page404 from '../views/Page404.vue'
+import LandingView from '../views/LandingView.vue'
+import SwossView from '../views/SwossView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', name: 'Accueil', component: AccueilView },
+    { path: '/accueil', name: 'Accueil', component: AccueilView },
     { path: '/compte', name: 'Compte', component: CompteView },
     { path: '/projets', name: 'Projets', component: ProjetsView, },
     { path: '/projetsdet:id', name: 'ProjetsDetails', component: ProjetsDetails },
@@ -44,6 +46,8 @@ const router = createRouter({
     { path: '/contact', name: 'Contact', component: ContactView },
     { path: '/mentions', name: 'Mentions', component: MentionsView },
     { path: '/:pathMatch(.*)*', name: 'Page404', component: Page404 },
+    { path: '/', name: 'Landing', component: LandingView },
+    { path: '/swoss', name: 'Swoss', component: SwossView },
   ]
 })
 

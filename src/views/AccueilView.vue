@@ -1,21 +1,36 @@
 <template>
-  <div class="m-auto mb-10 lg:mb-20 mt-10 lg:mt-20 min-w-fit max-w-fit rounded-xl p-2 bg-[#0081ca]">
-    <h2 class="text-center">Mathieu BOUQUE</h2>
+  <div class="flex flex-col min-h-screen justify-center items-center lg:mt-[-200px] mb-20 lg:mb-0">
+    <div class="max-w-screen-lg w-full px-4">
+      <h2 class="text-center mb-10 lg:mb-20 mt-10 lg:mt-20 rounded-xl p-2 border-2 border-solid border-[#0081ca]">Mathieu BOUQUE</h2>
+      <h1 class="text-center text-4xl font-bold mb-10">Envie d'en savoir plus sur moi ?</h1>
+      <div class="flex flex-col lg:flex-row justify-center items-center space-y-6 lg:space-y-0 lg:space-x-10">
+        <div class="min-w-fit max-w-fit rounded-xl p-4 border-2 border-gray-800 hover:bg-gray-800 hover:text-white hover:border-transparent text-center">
+          <router-link to="/projets">
+            <h3 class="text-lg font-medium">Projets collectifs</h3>
+            <p class="text-sm mt-2">Découvrez les projets réalisés en équipe</p>
+          </router-link>
+        </div>
+        <div class="min-w-fit max-w-fit rounded-xl p-4 border-2 border-gray-800 hover:bg-gray-800 hover:text-white hover:border-transparent text-center">
+          <router-link to="/travaux">
+            <h3 class="text-lg font-medium">Projets personnels</h3>
+            <p class="text-sm mt-2">Découvrez mes projets personnels</p>
+          </router-link>
+        </div>
+        <div class="min-w-fit max-w-fit rounded-xl p-4 border-2 border-gray-800 hover:bg-gray-800 hover:text-white hover:border-transparent text-center">
+          <router-link to="/parcours">
+            <h3 class="text-lg font-medium">Parcours</h3>
+            <p class="text-sm mt-2">Découvrez mon parcours et mes compétences</p>
+          </router-link>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="flex mb-48">
-    <div class="m-auto min-w-fit max-w-fit rounded-xl p-2 bg-black">
-      <router-link to="/projets"><h3 class="text-white">Projets collectifs</h3></router-link>
-    </div>
-    <div class="m-auto min-w-fit max-w-fit rounded-xl p-2 bg-black">
-      <router-link to="/travaux"><h3 class="text-white">Projets personnels</h3></router-link>
-    </div>
-    <div class="m-auto min-w-fit max-w-fit rounded-xl p-2 bg-black">
-      <h3 class="text-white">Parcours</h3>
-    </div>
-  </div>
+
+
+
   <section class="hidden xl:block">
     <div class="relative">
-      <h2 class="absolute top-32 right-5">Mes projets</h2>
+      <h2 class="absolute top-32 right-5">Projets collectifs</h2>
       <svg
         width=100%
         height=auto
@@ -34,7 +49,7 @@
       <button class="absolute right-52 bottom-36"><a href="/projets">VOIR PLUS</a></button>
     </div>
     <div class="relative">
-      <h2 class="absolute top-32 left-5">Mes travaux</h2>
+      <h2 class="absolute top-32 left-5 mt-5">Projets personnels</h2>
       <svg
         width=100%
         height=auto
@@ -54,20 +69,18 @@
     </div>
   </section>
   <section class="xl:hidden">
-    <div class="bg-cyan-500 mb-20">
-      <h2 class="text-center m-5">Projets</h2>
+    <div class="bg-cyan-500 text-center mb-36">
+      <h2 class="text-center m-5">Projets collectifs</h2>
       <div class="grid grid-cols-2 gap-5">
-        <figure class="ml-5 mr-5" v-for="projets in listeProjets" :key="projets.nom">
+        <figure class="text-center ml-5 mr-5" v-for="projets in listeProjets" :key="projets.nom">
         <img :alt="projets.nom" :src="projets.image" />
         <figcaption class="text-center">{{ projets.nom }}</figcaption>
         </figure>
       </div>
-      <div class="text-right">
-        <button class="mr-5 mt-10 pb-5 othertypo"><a href="/projets">VOIR PLUS</a></button>
-      </div>
+      <button class="mr-5 mt-10 pb-5 othertypo"><a href="/projets">VOIR PLUS</a></button>
     </div>
     <div class="bg-cyan-500 text-center">
-      <h2 class="text-center m-5">Travaux</h2>
+      <h2 class="text-center m-5">Projets personnels</h2>
       <div class="grid grid-cols-2 gap-5">
         <figure class="text-center ml-5 mr-5" v-for="travaux in listeTravaux" :key="travaux.nom">
         <img :alt="travaux.nom" :src="travaux.image" />
