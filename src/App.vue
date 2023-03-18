@@ -27,7 +27,7 @@
       </ul>
       <div>
     <button class="flex lg:hidden menu-icon" @click="showMenu = !showMenu">
-      <img src="src/assets/menuicon.png" alt="Menu">
+      <img src="./assets/menuicon.png" alt="Menu">
     </button>
     <ul v-if="showMenu" class="menu">
       <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
@@ -132,6 +132,10 @@ export default {
     border: 1px solid black;
     padding: 10px;
     margin: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    margin-top: 45px;
   }
   
   .menu li {
