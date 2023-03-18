@@ -27,7 +27,7 @@
       </ul>
       <div>
     <button class="flex lg:hidden menu-icon" @click="showMenu = !showMenu">
-      <img src="public/img/menu-icon.png" alt="Menu">
+      <img src="public/img/menuicon.png" alt="Menu">
     </button>
     <ul v-if="showMenu" class="menu">
       <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
