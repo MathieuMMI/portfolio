@@ -4,7 +4,7 @@
       <button class="absolute"><h1 v-on:click="handleClick">Mathieu</h1></button>
       <ul class="hidden lg:flex absolute right-0">
         <svg
-          width="600"
+          width="885"
           height="73"
           viewBox="0 0 815 73"
           fill="none"
@@ -13,9 +13,9 @@
           <path d="M89 72L1.5 0.5H814V72H89Z" fill="#251E70" stroke="black"></path>
         </svg>
         <div class="flex absolute right-5 top-3 text-white">
-        <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
-        <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Travaux</RouterLink></li>
-        <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
+        <li class="ml-8 text-left font-medium"><RouterLink to="/projets">Projets collectifs</RouterLink></li>
+        <li class="ml-5 text-left font-medium"><RouterLink to="/travaux">Projets individuels</RouterLink></li>
+        <li class="ml-5 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
         </div>
       </ul>
       <div>
@@ -23,8 +23,8 @@
       <img src="./assets/menuicon.png" alt="Menu">
     </button>
     <ul v-if="showMenu" class="menu">
-      <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
-        <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Travaux</RouterLink></li>
+      <li class="text-left font-medium"><RouterLink to="/projets">Projets collectifs</RouterLink></li>
+        <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Projets individuels</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
     </ul>
   </div>
