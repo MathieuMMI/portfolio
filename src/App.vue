@@ -4,7 +4,7 @@
       <button class="absolute"><h1 v-on:click="handleClick">Mathieu</h1></button>
       <ul class="hidden lg:flex absolute right-0">
         <svg
-          width="815"
+          width="600"
           height="73"
           viewBox="0 0 815 73"
           fill="none"
@@ -16,7 +16,6 @@
         <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Travaux</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
-        <li class="ml-10 text-left font-medium"><RouterLink to="/contact">Contact</RouterLink></li>
         </div>
       </ul>
       <div>
@@ -27,7 +26,6 @@
       <li class="text-left font-medium"><RouterLink to="/projets">Projets</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Travaux</RouterLink></li>
         <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
-        <li class="ml-10 text-left font-medium"><RouterLink to="/contact">Contact</RouterLink>        </li>
     </ul>
   </div>
     </nav>
@@ -44,7 +42,7 @@
       </li>
       <li>
         <router-link to="/contact">
-          <p class="text-white">Mathieu</p>
+          <p class="text-white">Contactez-moi</p>
         </router-link>
       </li>
     </ul>

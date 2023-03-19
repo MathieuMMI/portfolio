@@ -25,7 +25,7 @@
         </div>
       </div>
     </div>
-    <div class="m-auto mb-20 text-center min-w-fit2 max-w-fit2 min-w-fit max-w-fit rounded-full p-4 border-2 text-blue-900 border-blue-900 hover:border-[#251E70] animate-pulse myscale">
+    <div class="m-auto mb-20 text-center min-w-fit2 max-w-fit2 min-w-fit max-w-fit rounded-full p-8 border-2 text-blue-900 border-blue-900 hover:border-[#251E70] animate-pulse myscale">
   <router-link to="/swoss">
     <h4 class="">Swoss</h4>
     <p class="mt-2">Le projet que j'ai le plus apprécié développer !</p>

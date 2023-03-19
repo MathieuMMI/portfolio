@@ -1,6 +1,5 @@
 <template>
-  <div class="container mx-auto mt-5">
-
+  <div class="container mx-auto mt-5 max-w-lg py-4">
     <div v-if="loggedIn" class="text-center">
       <h2><button @click="onDcnx" type="submit" class="m-auto rounded-full border border-blue-800 text-blue-800 py-2 px-4 bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out">Se déconnecter</button></h2>
     </div>

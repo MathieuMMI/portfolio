@@ -6,7 +6,7 @@
           Nom complet
         </label>
         <input
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border border-black rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="nom"
           type="text"
           placeholder="Nom"
@@ -18,7 +18,7 @@
           Adresse email
         </label>
         <input
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border border-black rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="mail"
           type="email"
           placeholder="Adresse email"
@@ -30,7 +30,7 @@
           Numéro de téléphone
         </label>
         <input
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border border-black rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="tel"
           type="tel"
           placeholder="Numéro de téléphone"
@@ -42,7 +42,7 @@
           Objet
         </label>
         <input
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border border-black rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="objet"
           type="text"
           placeholder="Objet"
@@ -54,7 +54,7 @@
           Message
         </label>
         <textarea
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border border-black rounded w-full py-2 px-3 pb-10 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           id="message"
           type="text"
           placeholder="Message"
