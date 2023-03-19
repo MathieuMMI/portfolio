@@ -9,16 +9,28 @@
             <div class="input-group-prepend">
               <span class="input-group-text text-xl">Nom</span>
             </div>
-            <input class="form-control text-xl text-amber-600 text-center" placeholder="Nom du travaux" v-model="travaux.nom" required />
+            <input class="border border-black form-control text-xl text-center" placeholder="Nom du travaux" v-model="travaux.nom" required />
           </div>
           <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text text-xl">Photo</span>
             </div>
             <div class="custom-file">
-              <input type="file" class="custom-file-input" ref="file" id="file" @change="previewImage" />
+              <input type="file" class="border border-black custom-file-input" ref="file" id="file" @change="previewImage" />
             </div>
           </div>
+        </div>
+        <div class="input-group text-center">
+          <div class="input-group-prepend text-center">
+            <p class="text-center text-xl">Lien</p>
+          </div>
+          <input class="border border-black form-control text-center" placeholder="Adresse du lien" v-model="travaux.lien" required />
+        </div>
+        <div class="input-group text-center">
+          <div class="input-group-prepend text-center">
+            <p class="text-center text-xl">Description</p>
+          </div>
+          <input class="border border-black form-control text-center pb-52" placeholder="Description" v-model="travaux.description" required />
         </div>
         <div class="grid text-center mt-7">
           <button type="submit" class="mb-2 text-xl">Créer</button>

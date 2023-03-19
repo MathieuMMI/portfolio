@@ -20,6 +20,18 @@
             </div>
           </div>
         </div>
+        <div class="input-group text-center">
+          <div class="input-group-prepend text-center">
+            <p class="text-center text-xl">Lien</p>
+          </div>
+          <input class="border border-black form-control text-center" placeholder="Adresse du lien" v-model="projets.lien" required />
+        </div>
+        <div class="input-group text-center">
+          <div class="input-group-prepend text-center">
+            <p class="text-center text-xl">Description</p>
+          </div>
+          <input class="border border-black form-control text-center" placeholder="Description" v-model="projets.description" required />
+        </div>
         <div class="grid text-center mt-7">
           <button type="submit" class="mb-2 text-xl">Créer</button>
           <button class="text-xl">

@@ -2,6 +2,7 @@
     <div class="ml-10 mr-10" v-if="travaux">
       <h2 class="mt-5 mb-7 text-center font-semibold">{{ travaux.nom }}</h2>
       <img class="w-full" :src="imageURL" :alt="travaux.nom" />
+      <p class="lien text-center mb-5"><a class="underline text-blue-600" v-bind:href="travaux.lien">{{ travaux.lien }}</a></p>
       <p class="text-center">{{ travaux.description }}</p>
     </div>
     <p v-else class="text-center">Chargement...</p>

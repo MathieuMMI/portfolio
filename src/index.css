@@ -90,3 +90,8 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+.lien {
+  text-decoration: none;
+  list-style: none;
+}

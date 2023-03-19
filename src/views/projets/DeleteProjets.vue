@@ -1,16 +1,9 @@
 <template>
   <form enctype="multipart/form-data" @submit.prevent="deleteProjets">
-    <h2 class="mb-5 text-center text-2xl text-black">Suppression du projets</h2>
-    <img class="preview img-fluid m-auto" :src="imageActuelle" />
-    <div class="text-center">
-      <div class="input-group-prepend text-center">
-        <span class="input-group-text mt-7 text-center">Nom</span>
-      </div>
-      <input class="form-control text-amber-600 text-center" placeholder={{projets.nom}} v-model="Projets.nom" disabled />
-      <h3 class="alert alert-warning mt-7 text-center text-xl text-red-500" role="alert">
+    <h2 class="mb-5 text-center text-2xl text-black">Suppression du projet</h2>
+    <h3 class="alert alert-warning mt-7 text-center text-xl text-red-500" role="alert">
         Attention vous allez supprimer ce participant, cette action est irréversible !!
-      </h3>
-    </div>
+    </h3>
     <div class="mt-7 grid text-center">
       <button type="submit" class="mb-4">Supprimer</button>
       <button class="mb-[40%]">

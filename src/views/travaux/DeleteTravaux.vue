@@ -1,16 +1,9 @@
 <template>
   <form enctype="multipart/form-data" @submit.prevent="deleteTravaux">
     <h2 class="mb-5 text-center text-2xl text-black">Suppression du travaux</h2>
-    <img class="preview img-fluid m-auto" :src="imageActuelle" />
-    <div class="text-center">
-      <div class="input-group-prepend text-center">
-        <span class="input-group-text mt-7 text-center">Nom</span>
-      </div>
-      <input class="form-control text-amber-600 text-center" placeholder="Nom" v-model="Travaux.nom" disabled />
-      <h3 class="alert alert-warning mt-7 text-center text-xl text-red-500" role="alert">
+    <h3 class="alert alert-warning mt-7 text-center text-xl text-red-500" role="alert">
         Attention vous allez supprimer ce participant, cette action est irréversible !!
-      </h3>
-    </div>
+    </h3>
     <div class="mt-7 grid text-center">
       <button type="submit" class="mb-4">Supprimer</button>
       <button class="mb-[40%]">
@@ -85,7 +78,19 @@ export default {
           console.log("erreur downloadUrl", error);
         });
     },
-
+    previewImage: function (event) {
+      this.file = this.$refs.file.files[0];
+      this.travaux.image = this.file.name;
+      this.imgModifiee = true;
+      var input = event.target;
+      if (input.files && input.files[0]) {
+        var reader = new FileReader();
+        reader.onload = (e) => {
+          this.imageData = e.target.result;
+        };
+        reader.readAsDataURL(input.files[0]);
+      }
+    },
     async deleteTravaux() {
       const firestore = getFirestore();
       await deleteDoc(doc(firestore, "travaux", this.$route.params.id));

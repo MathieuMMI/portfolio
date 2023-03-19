@@ -5,18 +5,30 @@
       <div class="input-group-prepend text-center">
         <p class="text-center text-xl">Nom</p>
       </div>
-      <input class="form-control text-amber-600 text-center" placeholder="Nom du projets" v-model="projets.nom" required />
+      <input class="border border-black form-control text-center" placeholder="Nom du projets" v-model="projets.nom" required />
     </div>
     <div class="input-group">
       <div class="input-group-prepend">
-        <figure v-for="projets in listeProjets" :key="projets.nom" class="flex flex-col">
+        <figure v-for="projets in listeProjets" :key="projets.nom" class="border border-black flex flex-col">
           <img :alt="projets.nom" :src="projets.image" class="w-full rounded-tl-3xl rounded-tr-3xl dark:bg-zinc-900" />
         </figure>
       <p class="text-center text-xl">Image</p>
       </div>
       <div class="custom-file text-center">
-        <input type="file" class="custom-file-input" ref="file" id="file" @change="previewImage" />
+        <input type="file" class="border border-black custom-file-input" ref="file" id="file" @change="previewImage" />
       </div>
+    </div>
+    <div class="input-group text-center">
+      <div class="input-group-prepend text-center">
+        <p class="text-center text-xl">Lien</p>
+      </div>
+      <input class="border border-black form-control text-center" placeholder="Adresse du lien" v-model="projets.lien" required />
+    </div>
+    <div class="input-group text-center">
+      <div class="input-group-prepend text-center">
+        <p class="text-center text-xl">Description</p>
+      </div>
+      <input class="border border-black form-control text-center pb-52" placeholder="Description" v-model="projets.description" required />
     </div>
     <div class="mt-10 grid text-center">
       <button type="submit" class="">Modifier</button>
