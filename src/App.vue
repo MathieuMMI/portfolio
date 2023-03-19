@@ -10,27 +10,27 @@
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none">
-          <path d="M89 72L1.5 0.5H814V72H89Z" fill="#251E70" stroke="black"></path>
+          <path d="M89 72L1.5 0.5H814V72H89Z" fill="transparent" stroke="#00268e"></path>
         </svg>
-        <div class="flex absolute right-5 top-3 text-white">
+        <div class="flex absolute right-5 top-3 text-color">
         <li class="ml-8 text-left font-medium"><RouterLink to="/projets">Projets collectifs</RouterLink></li>
         <li class="ml-5 text-left font-medium"><RouterLink to="/travaux">Projets individuels</RouterLink></li>
-        <li class="ml-5 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
+        <li class="ml-5 text-left font-medium"><RouterLink to="/parcours">Parcours</RouterLink></li>
         </div>
       </ul>
       <div>
-    <button class="flex lg:hidden menu-icon" @click="showMenu = !showMenu">
+    <button class="dark:bg-white flex lg:hidden menu-icon" @click="showMenu = !showMenu">
       <img src="./assets/menuicon.png" alt="Menu">
     </button>
     <ul v-if="showMenu" class="menu">
       <li class="text-left font-medium"><RouterLink to="/projets">Projets collectifs</RouterLink></li>
-        <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Projets individuels</RouterLink></li>
-        <li class="ml-10 text-left font-medium"><RouterLink to="/">Parcours</RouterLink></li>
+      <li class="ml-10 text-left font-medium"><RouterLink to="/travaux">Projets individuels</RouterLink></li>
+      <li class="ml-10 text-left font-medium"><RouterLink to="/parcours">Parcours</RouterLink></li>
     </ul>
   </div>
     </nav>
   </header>
-  <main class="dark:bg-black dark:text-white">
+  <main>
     <RouterView />
   </main>
   <footer v-if="showFooter" class="sm:flex bg-stone-900 pt-[15px] sm:pl-10 pb-5 mt-32 lg:mt-52">

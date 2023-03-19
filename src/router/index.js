@@ -27,6 +27,7 @@ import MentionsView from '../views/MentionsView.vue'
 import Page404 from '../views/Page404.vue'
 import LandingView from '../views/LandingView.vue'
 import SwossView from '../views/SwossView.vue'
+import ParcoursView from '../views/ParcoursView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -48,6 +49,7 @@ const router = createRouter({
     { path: '/:pathMatch(.*)*', name: 'Page404', component: Page404 },
     { path: '/', name: 'Landing', component: LandingView },
     { path: '/swoss', name: 'Swoss', component: SwossView },
+    { path: '/parcours', name: 'Parcours', component: ParcoursView },
   ]
 })
 

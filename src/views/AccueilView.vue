@@ -13,7 +13,7 @@
   </section>
 
   <section class="hidden xl:block">
-    <div class="swoss bg-black bg-opacity-100 border text-[#1bc1c1] border-blue-900 text-center mb-36 rounded-full p-10 mx-auto w-[90%] shadow-xl shadow-slate-800">
+    <div class="swoss bg-black text-[#1bc1c1] border-blue-900 text-center mb-36 rounded-full p-10 mx-auto w-[90%] shadow-xl shadow-slate-800">
       <h2 class="text-center m-5">Swoss</h2>
       <button class="swoss-button m-auto mb-20 text-center min-w-fit max-w-fit rounded-full p-4 border-2 border-blue-900 active:bg-[#251E70] focus:bg-[#251E70] hover:text-white focus:text-white">
         <a href="/swoss">VOIR PLUS</a>
@@ -68,7 +68,7 @@
       </button>
     </div>
 
-    <div class="bg-[#0081ca] text-center mb-36">
+    <div class="bg-[#0081ca] dark:bg-[#35608e] text-center mb-36">
       <h2 class="text-center m-5">Projets collectifs</h2>
       <div class="grid grid-cols-2 gap-5">
         <figure class="text-center ml-5 mr-5" v-for="projets in listeProjets" :key="projets.nom">
@@ -76,9 +76,9 @@
           <figcaption class="text-center">{{ projets.nom }}</figcaption>
         </figure>
       </div>
-      <button class="p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/projets">VOIR PLUS</a></button>
+      <button class="dark:text-white dark:border-white p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/projets">VOIR PLUS</a></button>
     </div>
-    <div class="bg-[#0081ca] text-center">
+    <div class="bg-[#0081ca] dark:bg-[#35608e] text-center">
       <h2 class="text-center m-5">Projets personnels</h2>
       <div class="grid grid-cols-2 gap-5">
         <figure class="text-center ml-5 mr-5" v-for="travaux in listeTravaux" :key="travaux.nom">
@@ -86,7 +86,7 @@
           <figcaption class="text-center">{{ travaux.nom }}</figcaption>
         </figure>
       </div>
-      <button class="p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/travaux">VOIR PLUS</a></button>
+      <button class="dark:text-white dark:border-white p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/travaux">VOIR PLUS</a></button>
     </div>
    
   </section>
