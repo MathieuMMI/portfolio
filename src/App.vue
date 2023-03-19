@@ -1,5 +1,5 @@
 <template>
-  <header v-if="showHeader" class="relative flex px-5 xl:pb-[11px] mb-14 lg:mb-32">
+  <header v-if="showHeader" class="relative flex px-5 xl:pb-[11px] mb-20 lg:mb-32">
     <nav>
       <button class="absolute"><h1 v-on:click="handleClick">Mathieu</h1></button>
       <ul class="hidden lg:flex absolute right-0">

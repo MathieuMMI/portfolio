@@ -1,34 +1,28 @@
 <template>
-  <div class="flex flex-col min-h-screen justify-center items-center lg:mt-[-200px] mb-20 lg:mb-0">
-    <div class="max-w-screen-lg w-full px-4">
-      <h2 class="text-center mb-10 lg:mb-20 mt-10 lg:mt-20 rounded-xl p-2 border-2 border-solid border-[#0081ca]">Mathieu BOUQUE</h2>
-      <h1 class="text-center text-4xl font-bold mb-10">Envie d'en savoir plus sur moi ?</h1>
-      <div class="flex flex-col lg:flex-row justify-center items-center space-y-6 lg:space-y-0 lg:space-x-10">
-        <div class="min-w-fit max-w-fit rounded-xl p-4 border-2 border-gray-800 hover:bg-gray-800 hover:text-white hover:border-transparent text-center">
-          <router-link to="/projets">
-            <h3 class="text-lg font-medium">Projets collectifs</h3>
-            <p class="text-sm mt-2">Découvrez les projets réalisés en équipe</p>
-          </router-link>
-        </div>
-        <div class="min-w-fit max-w-fit rounded-xl p-4 border-2 border-gray-800 hover:bg-gray-800 hover:text-white hover:border-transparent text-center">
-          <router-link to="/travaux">
-            <h3 class="text-lg font-medium">Projets personnels</h3>
-            <p class="text-sm mt-2">Découvrez mes projets personnels</p>
-          </router-link>
-        </div>
-        <div class="min-w-fit max-w-fit rounded-xl p-4 border-2 border-gray-800 hover:bg-gray-800 hover:text-white hover:border-transparent text-center">
-          <router-link to="/parcours">
-            <h3 class="text-lg font-medium">Parcours</h3>
-            <p class="text-sm mt-2">Découvrez mon parcours et mes compétences</p>
-          </router-link>
-        </div>
+  <section class="mb-20 lg:mb-36">
+    <h2 class="text-center">Bienvenue !</h2>
+    <p class="ml-5 lg:ml-20 mt-5 mb-5">Intéressé très rapidement par le numérique et le multimédia, 
+      j'ai cherché à rejoindre une formation qui me permette de travailler plus tard dans ce domaine.
+      C'est là que j'ai rejoint MMI, et que j'ai commencé à avoir une appétence pour le développement.
+    </p>
+      <div class="flex">
+        <img src="../../public/img/ue5.png" class="w-[20%] m-auto" />
+        <img src="../../public/img/vscode.png" class="w-[20%] m-auto" />
       </div>
-    </div>
-  </div>
+    
+  </section>
 
 
 
   <section class="hidden xl:block">
+    <div class="bg-black text-center mb-36 rounded-full p-10 mx-auto">
+  <h2 class="text-center m-5">Swoss</h2>
+  
+  <button class="m-auto mb-20 text-center min-w-fit2 max-w-fit2 min-w-fit max-w-fit rounded-xl p-4 border-2 text-blue-900 border-blue-900 hover:border-[#251E70] animate-pulse myscale">
+    <a href="/projets">VOIR PLUS</a>
+  </button>
+</div>
+
     <div class="relative">
       <h2 class="absolute top-32 right-5">Projets collectifs</h2>
       <svg
@@ -46,7 +40,7 @@
         <figcaption class="text-center">{{ projets.nom }}</figcaption>
         </figure>
       </div>
-      <button class="absolute right-52 bottom-36"><a href="/projets">VOIR PLUS</a></button>
+      <button class="absolute right-52 bottom-36 m-auto rounded-full border border-black text-black- py-2 px-4 bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/projets">VOIR PLUS</a></button>
     </div>
     <div class="relative">
       <h2 class="absolute top-32 left-5 mt-5">Projets personnels</h2>
@@ -65,7 +59,7 @@
         <figcaption class="text-center">{{ travaux.nom }}</figcaption>
         </figure>
       </div>
-      <button class="absolute left-52 bottom-40"><a href="/">VOIR PLUS</a></button>
+      <button class="absolute left-52 bottom-52 m-auto rounded-full border border-black text-black py-2 px-4 bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/">VOIR PLUS</a></button>
     </div>
   </section>
   <section class="xl:hidden">
@@ -77,7 +71,7 @@
         <figcaption class="text-center">{{ projets.nom }}</figcaption>
         </figure>
       </div>
-      <button class="mr-5 mt-10 pb-5 othertypo"><a href="/projets">VOIR PLUS</a></button>
+      <button class="p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/projets">VOIR PLUS</a></button>
     </div>
     <div class="bg-cyan-500 text-center">
       <h2 class="text-center m-5">Projets personnels</h2>
@@ -87,7 +81,7 @@
         <figcaption class="text-center">{{ travaux.nom }}</figcaption>
         </figure>
       </div>
-      <button class="mr-5 mt-10 pb-5 othertypo"><a href="/travaux">VOIR PLUS</a></button>
+      <button class="p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/travaux">VOIR PLUS</a></button>
     </div>
    
   </section>
