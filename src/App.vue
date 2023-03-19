@@ -143,33 +143,12 @@ export default {
     font-size: 1.2rem;
   }
 
-.sublink {
-  font-size: 1.5rem;
-}
+
 .menu-item {
   position: relative;
 }
-.sub-menu {
-  display: none;
-  position: absolute;
-  background-color: #251E70;
-  padding: 15px;
-  text-align: center;
-}
 
 
-@media (min-width: 540px) {
-  .sub-menu {
-  display: none;
-  position: absolute;
-  background-color: #251E70;
-  padding: 15px;
-  text-align: center;
-}
-}
-.menu-item:hover  .sub-menu {
-  display: block;
-}
 /*  <header v-if="showHeader" class="relative flex px-5 xl:pb-[11px] mb-14 lg:mb-32">
  */
  body {
