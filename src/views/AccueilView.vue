@@ -15,8 +15,8 @@
   <section class="hidden xl:block">
     <div class="swoss bg-black bg-opacity-100 border text-[#1bc1c1] border-blue-900 text-center mb-36 rounded-full p-10 mx-auto w-[90%] shadow-xl shadow-slate-800">
       <h2 class="text-center m-5">Swoss</h2>
-      <button class="swoss-button m-auto mb-20 text-center min-w-fit max-w-fit rounded-full p-4 border-2 border-blue-900 hover:bg-[#251E70] hover:text-white">
-        <a href="/projets">VOIR PLUS</a>
+      <button class="swoss-button m-auto mb-20 text-center min-w-fit max-w-fit rounded-full p-4 border-2 border-blue-900 active:bg-[#251E70] focus:bg-[#251E70] hover:text-white focus:text-white">
+        <a href="/swoss">VOIR PLUS</a>
      </button>
     </div>
 
@@ -33,8 +33,8 @@
       </svg>
       <div class="grid grid-cols-2 absolute bottom-[30%]">
         <figure class="ml-20 mr-20" v-for="projets in listeProjets" :key="projets.nom">
-        <img :alt="projets.nom" :src="projets.image" class="" />
-        <figcaption class="text-white text-center">{{ projets.nom }}</figcaption>
+          <RouterLink :to="{ name: 'ProjetsDetails', params: { id: projets.id }}"><img :alt="projets.nom" :src="projets.image" class="" /></RouterLink>
+          <figcaption class="text-white text-center">{{ projets.nom }}</figcaption>
         </figure>
       </div>
       <button class="absolute right-52 bottom-36 m-auto rounded-full border border-black py-2 px-4 bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/projets">VOIR PLUS</a></button>
@@ -52,8 +52,8 @@
       </svg>
       <div class="grid grid-cols-2 absolute bottom-[30%]">
         <figure class="ml-20 mr-20" v-for="travaux in listeTravaux" :key="travaux.nom">
-        <img :alt="travaux.nom" :src="travaux.image" class="" />
-        <figcaption class="text-center">{{ travaux.nom }}</figcaption>
+          <RouterLink :to="{ name: 'TravauxDetails', params: { id: travaux.id }}"><img :alt="travaux.nom" :src="travaux.image" class="" /></RouterLink>
+          <figcaption class="text-center">{{ travaux.nom }}</figcaption>
         </figure>
       </div>
       <button class="absolute left-52 bottom-52 m-auto rounded-full border border-black text-black py-2 px-4 bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/">VOIR PLUS</a></button>
@@ -72,8 +72,8 @@
       <h2 class="text-center m-5">Projets collectifs</h2>
       <div class="grid grid-cols-2 gap-5">
         <figure class="text-center ml-5 mr-5" v-for="projets in listeProjets" :key="projets.nom">
-        <img :alt="projets.nom" :src="projets.image" />
-        <figcaption class="text-center">{{ projets.nom }}</figcaption>
+          <RouterLink :to="{ name: 'ProjetsDetails', params: { id: projets.id }}"><img :alt="projets.nom" :src="projets.image" /></RouterLink>
+          <figcaption class="text-center">{{ projets.nom }}</figcaption>
         </figure>
       </div>
       <button class="p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/projets">VOIR PLUS</a></button>
@@ -82,8 +82,8 @@
       <h2 class="text-center m-5">Projets personnels</h2>
       <div class="grid grid-cols-2 gap-5">
         <figure class="text-center ml-5 mr-5" v-for="travaux in listeTravaux" :key="travaux.nom">
-        <img :alt="travaux.nom" :src="travaux.image" />
-        <figcaption class="text-center">{{ travaux.nom }}</figcaption>
+          <RouterLink :to="{ name: 'TravauxDetails', params: { id: travaux.id }}"><img :alt="travaux.nom" :src="travaux.image" /></RouterLink>
+          <figcaption class="text-center">{{ travaux.nom }}</figcaption>
         </figure>
       </div>
       <button class="p-3 mt-5 mb-5 othertypo rounded-full border border-black text-black bg-transparent hover:bg-[#251E70] text-center hover:text-white transition duration-300 ease-in-out"><a href="/travaux">VOIR PLUS</a></button>
