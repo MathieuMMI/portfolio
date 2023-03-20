@@ -16,6 +16,7 @@
   <section class="hidden xl:block">
     <div class="swoss bg-black text-[#1bc1c1] border-blue-900 text-center mb-36 rounded-full p-10 mx-auto w-[90%] shadow-xl shadow-slate-800">
       <h2 class="text-center m-5">Swoss</h2>
+      <p class="text-white mb-20">Venez-voir le projet sur lequel je me suis le plus investi !</p>
       <button class="swoss-button m-auto mb-20 text-center min-w-fit max-w-fit rounded-full p-4 border-2 border-blue-900 active:bg-[#251E70] focus:bg-[#251E70] hover:text-white focus:text-white">
         <a href="/swoss">VOIR PLUS</a>
      </button>
@@ -64,7 +65,8 @@
   <section class="xl:hidden">
     <div class="swoss bg-black border text-[#1bc1c1] border-blue-900 text-center mb-10 rounded-full p-5 mx-auto w-[90%] shadow-xl shadow-slate-800">
       <h2 class="text-center m-3 text-2xl">Swoss</h2>
-      <button class="button-swoss m-auto mt-6 text-center min-w-fit max-w-fit rounded-full p-2 border-2 border-blue-900 hover:bg-[#251E70] hover:text-white">
+      <p class="text-white mb-1">Venez-voir le projet sur lequel je me suis le plus investi !</p>
+      <button class="button-swoss m-auto mt-6 mb-6 text-center min-w-fit max-w-fit rounded-full p-2 border-2 border-blue-900 hover:bg-[#251E70] hover:text-white">
         <a href="/swoss">VOIR PLUS</a>
       </button>
     </div>
