@@ -3,7 +3,6 @@
     <h2 class="mt-5 mb-7 text-center font-semibold">{{ projets.nom }}</h2>
     <img class="w-full" :src="imageURL" :alt="projets.nom" />
     <p class="lien text-center mb-5"><a class="underline text-blue-600" v-bind:href="projets.lien">{{ projets.lien }}</a></p>
-    <p class="lien text-center mb-5"><a class="underline text-blue-600" v-bind:href="projets.lien2">{{ projets.lien2 }}</a></p>
     <p class="text-center">{{ projets.description }}</p>
   </div>
   <p v-else class="text-center">Chargement...</p>
