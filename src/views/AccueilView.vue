@@ -6,8 +6,9 @@
       C'est là que j'ai rejoint MMI, et que j'ai commencé à avoir une appétence pour le développement.
     </p>
       <div class="flex">
-        <img src="../../public/img/ue5.png" class="w-[20%] m-auto" />
-        <img src="../../public/img/vscode.png" class="w-[20%] m-auto" />
+        <img src="../../public/img/ue5.png" class="dark:hidden w-[20%] m-auto" />
+        <img src="../../public/img/vscode.png" class=" w-[20%] m-auto" />
+        <img src="../../public/img/ue5dark.png" class="dark:block hidden w-[20%] m-auto" />
       </div>
     
   </section>
