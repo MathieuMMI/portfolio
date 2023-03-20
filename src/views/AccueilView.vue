@@ -65,7 +65,7 @@
     <div class="swoss bg-black border text-[#1bc1c1] border-blue-900 text-center mb-10 rounded-full p-5 mx-auto w-[90%] shadow-xl shadow-slate-800">
       <h2 class="text-center m-3 text-2xl">Swoss</h2>
       <button class="button-swoss m-auto mt-6 text-center min-w-fit max-w-fit rounded-full p-2 border-2 border-blue-900 hover:bg-[#251E70] hover:text-white">
-        <a href="/projets">VOIR PLUS</a>
+        <a href="/swoss">VOIR PLUS</a>
       </button>
     </div>
 
