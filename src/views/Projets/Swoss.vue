@@ -11,11 +11,11 @@
         choix de réaliser trois niveaux.</p>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-5">
         <figure>
-          <img src="img/ue5.png" alt="Logo d'Unreal Engine 5" class="rounded-md w-[25%] m-auto" />
+          <img src="/img/ue5.png" alt="Logo d'Unreal Engine 5" class="rounded-md w-[25%] m-auto" />
           <figcaption class="text-center">Logo d'Unreal Engine 5</figcaption>
         </figure>
         <figure>
-          <img src="img/blender.png" alt="Logo de Blender" class="rounded-md w-[25%] m-auto" />
+          <img src="/img/blender.png" alt="Logo de Blender" class="rounded-md w-[25%] m-auto" />
           <figcaption class="text-center">Logo de Blender</figcaption>
         </figure>
       </div>
@@ -26,7 +26,7 @@
         Notre seconde tâche a été de réaliser chacun un objet 3D sur Blender, comme il nous l'a été demandé. J'ai
         personnellemetn réalisé une épée en 3D, relativement simple d'apparence.
       <figure>
-        <img src="img/swoss_sword.png" alt="épée 3d réalisée sur blender" class="rounded-md m-auto" />
+        <img src="/img/swoss_sword.png" alt="épée 3d réalisée sur blender" class="rounded-md m-auto" />
         <figcaption class="text-center">L'épée en 3D que j'ai réalisée sur Blender</figcaption>
       </figure>
       </p>
@@ -41,19 +41,19 @@
         landscape ou le brouillard), et nous avons composé nos niveaux comme suit.
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-5">
         <figure>
-          <img src="img/swoss_lvl1.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
+          <img src="/img/swoss_lvl1.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
           <figcaption class="text-center">Le premier niveau, une forêt à côté d'un petit village</figcaption>
         </figure>
         <figure>
-          <img src="img/swoss_lvl2.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
+          <img src="/img/swoss_lvl2.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
           <figcaption class="text-center">Le second niveau, uen caverne</figcaption>
         </figure>
         <figure>
-          <img src="img/swoss_lvl3.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
+          <img src="/img/swoss_lvl3.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
           <figcaption class="text-center">Le troisième niveau, une zone morte</figcaption>
         </figure>
         <figure>
-          <img src="img/swoss_lvl4.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
+          <img src="/img/swoss_lvl4.png" alt="épée 3d réalisée sur blender" class="rounded-md w-full h-auto" />
           <figcaption class="text-center">Le quatrième niveau, une île avec un volcan</figcaption>
         </figure>
       </div>
@@ -68,7 +68,7 @@
         place un système de vie, de dégâts et de mort pour l'IA. Ainsi qu'un système de dialogue. Cela nous a permis de
         travailler l'interaction entre le monde, les PNJ et le joueur.</p>
       <figure>
-        <video width="720" height="480" controls class="m-auto"> <source src="img/swoss_fight.mp4" alt="r" class="rounded-md w-full h-auto" /></video>
+        <video width="720" height="480" controls class="m-auto"> <source src="/img/swoss_fight.mp4" alt="r" class="rounded-md w-full h-auto" /></video>
         <figcaption class="text-center">Vidéo exemple de la gestion du combat dans Swoss</figcaption>
       </figure>
     </div>
