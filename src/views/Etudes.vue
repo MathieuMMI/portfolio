@@ -17,11 +17,11 @@
                     lignes de code dessus, mais plutôt des concepts, des réflexions, ou autre. J'ai aussi un carnet pour les
                     définitions.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <figure><img src="public/img/veille_AI.png" alt="Image de mon carnet sur l'Intelligence Artificielle"
+                    <figure><img src="/img/veille_AI.png" alt="Image de ma veille sur l'Intelligence Artificielle"
                             class="text-center" />
                         <figcaption>Image d'une partie de ma veille sur l'intelligence artificielle</figcaption>
                     </figure>
-                    <figure><img src="public/img/veille_JV.png" alt="Image de mon carnet de définitions"
+                    <figure><img src="/img/Veille_JV.png" alt="Image de ma veille sur le jeu vidéo"
                             class="text-center" />
                         <figcaption>Image d'une partie de ma veille sur les logiciels 3D</figcaption>
                     </figure>
@@ -30,12 +30,12 @@
                     veille sur la technologie en général, une sur l'intelligence artificielle, une autre sur les logiciels
                     3D et une sur les différents langages de programmation.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                    <figure><img src="public/img/veille_AI.png" alt="Image de mon carnet sur l'Intelligence Artificielle"
+                    <figure><img src="/img/veille_AI.png" alt="Image de mon carnet sur l'Intelligence Artificielle"
                             class="text-center" />
                         <figcaption class="text-center">Image d'une partie de ma veille sur l'intelligence artificielle
                         </figcaption>
                     </figure>
-                    <figure><img src="public/img/veille_JV.png" alt="Image de mon carnet de définitions"
+                    <figure><img src="/img/veille_AI.png" alt="Image de mon carnet de définitions"
                             class="text-center" />
                         <figcaption class="text-center">Image d'une partie de ma veille sur les logiciels 3D</figcaption>
                     </figure>
@@ -49,7 +49,7 @@
                         <h4 class="text-2xl font-bold mb-2">Unreal Engine</h4>
                         <div>
                             <figure class="mb-5">
-                                <img src="public/img/ue5.png" alt="Logo de Unreal Engine"
+                                <img src="/img/ue5.png" alt="Logo de Unreal Engine"
                                     class="mb-4 md:mb-0 w-[15%] m-auto" />
                                 <figcaption class="text-center">Logo de Unreal Engine</figcaption>
                             </figure>
@@ -69,7 +69,7 @@
                                 vous renvoie aux différents projets basés sur Unreal Engine, notamment <router-link
                                     to="/Swoss" class="text-blue-500 underline">Swoss</router-link>, ou <router-link
                                     to="/UE" class="text-blue-500 underline">mon projet réalisé en SAE</router-link>.
-                                Vous pouvez aussi consulter <router-link to="VR" class="text-blue-500 underline">mon projet
+                                Vous pouvez aussi consulter <router-link to="/VR" class="text-blue-500 underline">mon projet
                                     en VR</router-link>.</p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                     <div class="mb-20">
                         <h4 class="text-2xl font-bold mb-2">Blender</h4>
                         <div>
-                            <figure class="mb-5"><img src="public/img/blender.png" alt="Logo de Blender"
+                            <figure class="mb-5"><img src="/img/blender.png" alt="Logo de Blender"
                                     class="mb-4 md:mb-0 w-[15%] m-auto" />
                                 <figcaption class="text-center">Logo de Blender</figcaption>
                             </figure>
@@ -102,7 +102,7 @@
                     <!--Sous-sous-partie 3-->
                     <div class="mb-20">
                         <h4 class="text-2xl font-bold mb-2">Godot</h4>
-                        <figure class="mb-5"><img src="public/img/godot.png" alt="Logo de Godot"
+                        <figure class="mb-5"><img src="/img/godot.png" alt="Logo de Godot"
                                 class="mb-4 md:mb-0 w-[15%] m-auto" />
                             <figcaption class="text-center">Logo de Godot</figcaption>
                         </figure>
@@ -115,11 +115,11 @@
                             retrouver ci-dessous les exerices réalisés avec le logiciel à l'aide de la
                             documentation.</p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <img src="/" alt="baleine">
+                            <img src="#" alt="baleine">
                             <p class="text-gray-700 text-left text-xl">Jeu 2D</p>
                         </div>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <img src="/" alt="baleine">
+                            <img src="#" alt="baleine">
                             <p class="text-gray-700 text-left text-xl">Jeu 3D</p>
 
 
@@ -129,7 +129,7 @@
                     <!--Sous-sous-partie 4-->
                     <div class="mb-20">
                         <h4 class="text-2xl font-bold mb-2">3D Max</h4>
-                        <figure class="mb-5"><img src="public/img/3dmax.png" alt="Logo de 3DMax"
+                        <figure class="mb-5"><img src="/img/3dmax.png" alt="Logo de 3DMax"
                                 class="mb-4 md:mb-0 w-[15%] m-auto" />
                             <figcaption class="text-center">Logo de 3DMax</figcaption>
                         </figure>

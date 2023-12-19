@@ -38,10 +38,10 @@
 
       <div class="m-4">
         <h3 class="text-3xl font-bold mb-2">Argimes</h3>
-        <figure><router-link to="/Argimes "><img src="/img/argime_present.png" alt="Projet 3D 2"
+        <!--<figure><router-link to="/Argimes "><img src="/img/argime_present.png" alt="Projet 3D 2"
               class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
           <figcaption></figcaption>
-        </figure>
+        </figure>-->
         <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Nous souhaitons, avec un ami, réaliser un jeu vidéo via
           Godot (et Blender). Le jeu n'en est qu'à ses débuts mais j'explique ici comment nous procéderons.</p>
       </div>
