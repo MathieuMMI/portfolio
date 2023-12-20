@@ -34,14 +34,14 @@
           <h3 class="text-3xl font-bold mb-2">Jeu vidéo Unreal Engine pour examen</h3>
           <figure><router-link to="/UE "><img src="/img/saeUE_present.png" alt="Projet 3D 2" class="rounded-md mb-2 m-auto" /></router-link><figcaption></figcaption></figure>
           <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Le but était de réaliser un jeu vidéo en une semaine en remplissant divers objectifs, qui nous rapportaient des points. Tant qu'on accomplissait suffisamment d'objectifs pour avoir une note correcte, l'examen était validé.</p>
-        </div>-->
+      </div>-->
 
       <div class="m-4">
         <h3 class="text-3xl font-bold mb-2">Argimes</h3>
-        <!--<figure><router-link to="/Argimes "><img src="/img/argime_present.png" alt="Projet 3D 2"
+        <figure><router-link to="/Argimes"><img src="/img/argime_present.png" alt="Projet 3D 2"
               class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
           <figcaption></figcaption>
-        </figure>-->
+        </figure>
         <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Nous souhaitons, avec un ami, réaliser un jeu vidéo via
           Godot (et Blender). Le jeu n'en est qu'à ses débuts mais j'explique ici comment nous procéderons.</p>
       </div>
@@ -82,27 +82,28 @@
           <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Ici, nous avons vu un autre moyen de gérer le contenu via un Backend : Supabase. Nous devions réaliser un site autour de la créationde montres personnalisées : l'utilisateur pouvait alors récupérer les caractéristiques stockées sur supabase et les appliquer sur la montre.</p>
         </div>-->
 
-    <div class="m-4">
-      <h3 class="text-3xl font-bold mb-2">Site web intégrant des graphiques ChartJS qui se basent sur des API publiques
-      </h3>
-      <figure><router-link to="/ChartJS "><img src="/img/chartjs_present.png" alt="Projet Web 2"
-            class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
-        <figcaption></figcaption>
-      </figure>
-      <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Ce projet concerne la gestion de données. Nous avons eu
-        à réaliser un site qui récupère les données d'API publiques, et les met en avant avec l'outil de visualisation
-        ChartJS.</p>
-    </div>
+      <div class="m-4">
+        <h3 class="text-3xl font-bold mb-2">Site web intégrant des graphiques ChartJS qui se basent sur des API publiques
+        </h3>
+        <figure><router-link to="/ChartJS "><img src="/img/chartjs_present.png" alt="Projet Web 2"
+              class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
+          <figcaption></figcaption>
+        </figure>
+        <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Ce projet concerne la gestion de données. Nous avons eu
+          à réaliser un site qui récupère les données d'API publiques, et les met en avant avec l'outil de visualisation
+          ChartJS.</p>
+      </div>
 
-    <div class="m-4">
-      <h3 class="text-3xl font-bold mb-2">Site web avec CMS(Prismic)</h3>
-      <figure><router-link to="/Prismic "><img src="/img/prismic_present.png" alt="Projet Web 2"
-            class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
-        <figcaption></figcaption>
-      </figure>
-      <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Nous devions faire un site qui utilise Prismic pour
-        gérer son contenu, avec un Storybook pour gérer les composants et l'usage du SCSS, framework CSS qui améliore
-        l'usage du CSS.</p>
+      <div class="m-4">
+        <h3 class="text-3xl font-bold mb-2">Site web avec CMS(Prismic)</h3>
+        <figure><router-link to="/Prismic "><img src="/img/prismic_present.png" alt="Projet Web 2"
+              class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
+          <figcaption></figcaption>
+        </figure>
+        <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Nous devions faire un site qui utilise Prismic pour
+          gérer son contenu, avec un Storybook pour gérer les composants et l'usage du SCSS, framework CSS qui améliore
+          l'usage du CSS.</p>
+      </div>
     </div>
   </div>
-</div></template>
+</template>

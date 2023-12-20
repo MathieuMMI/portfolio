@@ -23,13 +23,21 @@
 
     <div class="mb-8">
       <p class="text-gray-700 text-left text-xl mb-5">
+        Notre première tâche a été la confection du scénario et du lore. Nous avons donc décidé que le joueur a participé
+        à une insurrection, puis s'est retrouvé dans un village et devait terminer cette dernière en éliminant le roi, ou
+        plutôt le responsable des malheurs du peuple. Donc il va traverser divers endroits pour se rendre jusqu'à ce
+        dernier et le vaincre.
+      </p>
+    </div>
+
+    <div class="mb-8">
+      <p class="text-gray-700 text-left text-xl mb-5">
         Notre seconde tâche a été de réaliser chacun un objet 3D sur Blender, comme il nous l'a été demandé. J'ai
-        personnellemetn réalisé une épée en 3D, relativement simple d'apparence.
+        personnellemetn réalisé une épée en 3D, relativement simple d'apparence.</p>
       <figure>
         <img src="/img/swoss_sword.png" alt="épée 3d réalisée sur blender" class="rounded-md m-auto" />
         <figcaption class="text-center">L'épée en 3D que j'ai réalisée sur Blender</figcaption>
       </figure>
-      </p>
     </div>
 
     <!-- Section -->
@@ -62,21 +70,25 @@
 
     <!-- Section -->
     <div class="mb-8">
-      <p class="text-gray-700 text-left text-xl mb-5">La troisième partie a concerné la mise en place des personnages et des
+      <p class="text-gray-700 text-left text-xl mb-5">La troisième partie a concerné la mise en place des personnages et
+        des
         scripts. Nous avions à intégrer des personnages 3D, leur appliquer un squelette via divers outils (utiliser le rig
         de Mixamo ou Accurig, en créer un nous-même sur Blender, retarget sur Unreal Engine, ..). Nous avons donc mis en
         place un système de vie, de dégâts et de mort pour l'IA. Ainsi qu'un système de dialogue. Cela nous a permis de
         travailler l'interaction entre le monde, les PNJ et le joueur.</p>
       <figure>
-        <video width="720" height="480" controls class="m-auto"> <source src="/img/swoss_fight.mp4" alt="r" class="rounded-md w-full h-auto" /></video>
+        <video width="720" height="480" controls class="m-auto">
+          <source src="/img/swoss_fight.mp4" alt="Vidéo du premier gros combat obligatoire sur Swoss"
+            class="rounded-md w-full h-auto" />
+        </video>
         <figcaption class="text-center">Vidéo exemple de la gestion du combat dans Swoss</figcaption>
       </figure>
     </div>
 
     <!-- Conclusion -->
     <p class="text-gray-700 text-left text-xl">Ce projet, bien qu'il n'a pas pu intégrer certaines fonctionnalités qu'on
-      aurait dpu intégrer et contient quelques erreurs, nous a bien initié à l'usage d'Unreal Engine et nous a permis de
-      nus familiariser avec les problématiques de développement de jeu vidéo (les collisions, paramétrer une IA, etc).</p>
-  </div>
-</template>
+      aurait dû intégrer et contient quelques erreurs, nous a bien initié à l'usage d'Unreal Engine et nous a permis de
+      nous familiariser avec les problématiques de développement de jeu vidéo (les collisions, paramétrer une IA, etc).
+    </p>
+  </div></template>
   

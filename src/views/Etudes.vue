@@ -17,27 +17,24 @@
                     lignes de code dessus, mais plutôt des concepts, des réflexions, ou autre. J'ai aussi un carnet pour les
                     définitions.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <figure><img src="/img/veille_AI.png" alt="Image de ma veille sur l'Intelligence Artificielle"
-                            class="text-center" />
-                        <figcaption>Image d'une partie de ma veille sur l'intelligence artificielle</figcaption>
+                    <figure><img src="/img/blocknot_ai.jpg" alt="Photographie de mon carnet sur l'Intelligence Artificielle"
+                            class="m-auto w-[45%] -rotate-90" />
+                        <figcaption class="text-center">Mon carnet sur l'intelligence artificielle</figcaption>
                     </figure>
-                    <figure><img src="/img/Veille_JV.png" alt="Image de ma veille sur le jeu vidéo"
-                            class="text-center" />
-                        <figcaption>Image d'une partie de ma veille sur les logiciels 3D</figcaption>
+                    <figure><img src="/img/blocknot_defs.jpg" alt="Photographie de mon carnet de définitions" class="m-auto w-[50%] rotate-90" />
+                        <figcaption class="text-center">Mon carnet de définitions</figcaption>
                     </figure>
                 </div>
                 <p class="text-gray-700 text-left text-xl mt-4">Le second outil que j'utilise, c'est la veille. Je fais une
                     veille sur la technologie en général, une sur l'intelligence artificielle, une autre sur les logiciels
                     3D et une sur les différents langages de programmation.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                    <figure><img src="/img/veille_AI.png" alt="Image de mon carnet sur l'Intelligence Artificielle"
-                            class="text-center" />
-                        <figcaption class="text-center">Image d'une partie de ma veille sur l'intelligence artificielle
-                        </figcaption>
+                    <figure><img src="/img/veille_AI.png" alt="Image de ma veille sur l'Intelligence Artificielle"
+                            class="m-auto" />
+                        <figcaption class="text-center">Ma veille sur l'intelligence artificielle</figcaption>
                     </figure>
-                    <figure><img src="/img/veille_AI.png" alt="Image de mon carnet de définitions"
-                            class="text-center" />
-                        <figcaption class="text-center">Image d'une partie de ma veille sur les logiciels 3D</figcaption>
+                    <figure><img src="/img/Veille_JV.png" alt="Image de ma veille sur le jeu vidéo" class="text-center" />
+                        <figcaption class="text-center">Ma veille sur les logiciels 3D</figcaption>
                     </figure>
                 </div>
                 <!--Sous-partie 1-->
@@ -49,8 +46,7 @@
                         <h4 class="text-2xl font-bold mb-2">Unreal Engine</h4>
                         <div>
                             <figure class="mb-5">
-                                <img src="/img/ue5.png" alt="Logo de Unreal Engine"
-                                    class="mb-4 md:mb-0 w-[15%] m-auto" />
+                                <img src="/img/ue5.png" alt="Logo de Unreal Engine" class="mb-4 md:mb-0 w-[15%] m-auto" />
                                 <figcaption class="text-center">Logo de Unreal Engine</figcaption>
                             </figure>
                             <p class="text-gray-700 text-left text-xl">J'ai eu l'occasion de travailler le logiciel
@@ -63,7 +59,8 @@
                                 extensions d'Unreal Engine, comme Water ou MetaHuman.
                                 J'ai aussi pu étudier la configuration d'Intelligences Artificielles ainsi que la mise
                                 en place d'un multijoueur. Enfin, j'ai appris à gérer la création de commandes,
-                                l'initialisation de la réalité virtuelle, et la génération d'APK.
+                                l'initialisation de la réalité virtuelle et le développement d'applications en 3D pour cet
+                                outil, et la génération d'APK.
                             </p>
                             <p class="text-gray-700 text-left text-xl">Pour voir plus en détail mes apprentissages, je
                                 vous renvoie aux différents projets basés sur Unreal Engine, notamment <router-link
@@ -106,7 +103,7 @@
                                 class="mb-4 md:mb-0 w-[15%] m-auto" />
                             <figcaption class="text-center">Logo de Godot</figcaption>
                         </figure>
-                        <p class="text-gray-700 text-left text-xl">Sur Godot, j'ai principalement appris la gestion
+                        <p class="text-gray-700 text-left text-xl mb-5">Sur Godot, j'ai principalement appris la gestion
                             de l'interface, et la manière de gérer les scripts. Je me suis pour le moment concentré
                             sur la gestion du personnage et ses différentes composantes : gestion des animations,
                             gestion des actions en tant qu'IA, etc.
@@ -114,15 +111,15 @@
                                 class="text-blue-500 underline">Argimes</router-link> ; ou alors
                             retrouver ci-dessous les exerices réalisés avec le logiciel à l'aide de la
                             documentation.</p>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <img src="#" alt="baleine">
-                            <p class="text-gray-700 text-left text-xl">Jeu 2D</p>
-                        </div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <img src="#" alt="baleine">
-                            <p class="text-gray-700 text-left text-xl">Jeu 3D</p>
-
-
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                            <figure><img src="/img/godot_2d.png" alt="Image de l'exercice réalisé pour un jeu Godot en 2D"
+                                    class="m-auto">
+                                <figcaption class="text-center"></figcaption>
+                            </figure>
+                            <figure><img src="/img/godot_3d.png" alt="Image de l'exercice réalisé pour un jeu Godot en 3D"
+                                    class="m-auto">
+                                <figcaption class="text-center"></figcaption>
+                            </figure>
                         </div>
                     </div>
 
