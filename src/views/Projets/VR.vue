@@ -35,11 +35,11 @@
                 La première chose que j'ai faite, c'est réaliser mon visage en 3D. Nous avions à disposition plusieurs
                 outils pour cela : mon choix s'est porté sur Polycam. Et le résultat a été plutôt bon !
             </p>
-            <figure>
+            <!--<figure>
                 <img src="/img/myMetahuman.png" alt="Sreenshot du Metahuman inspiré de mon apparence"
                     class="rounded-md w-[25%] m-auto" />
                 <figcaption class="text-center">Metahuman me représentant</figcaption>
-            </figure>
+            </figure>-->
             <p class="text-gray-700 text-left text-xl mb-5">
                 D'abord, j'ai scanné mon visage à l'aide de l'application Polycam, puis j'ai récupéré le mesh 3D créé à
                 l'aide de l'application, je l'ai transféré sur Unreal Engine et j'ai utilisé le plugin Metahuman Creator
