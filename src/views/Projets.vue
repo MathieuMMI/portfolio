@@ -10,19 +10,17 @@
               class="rounded-md mb-2 m-auto" /></router-link>
           <figcaption></figcaption>
         </figure>
-        <router-link to="/Swoss">
           <p class="text-gray-700 text-left text-xl m-auto w-[50%]">Ce projet a été réalisé lors de ma seconde année en
             MMI. Il avait pour but de
             réaliser un jeu vidéo sur Unreal Engine, en usant des connaissances acquises lors de nos cours. Nous étions
             par groupe de 2.
           </p>
-        </router-link>
       </div>
 
 
       <div class="m-4">
         <h3 class="text-3xl font-bold mb-2">Monde Virtuel VR et Metahuman</h3>
-        <figure><router-link to="/VR "><img src="/img/vr_present.png" alt="Projet 3D 2"
+        <figure><router-link to="/VirtualReality"><img src="/img/vr_present.png" alt="Projet 3D 2"
               class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
           <figcaption></figcaption>
         </figure>
@@ -48,7 +46,7 @@
 
       <div class="m-4">
         <h3 class="text-3xl font-bold mb-2">Unified Champions</h3>
-        <figure><router-link to="/UEjeu"><img src="/img/UCjeu_present.png" alt="Projet Web 1"
+        <figure><router-link to="/UCjeu"><img src="/img/UCjeu_present.png" alt="Projet Web 1"
               class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
           <figcaption></figcaption>
         </figure>
@@ -62,7 +60,7 @@
 
       <div class="m-4">
         <h3 class="text-3xl font-bold mb-2">Unified Champions</h3>
-        <figure><router-link to="/UE "><img src="/img/uc_present.png" alt="Projet Web 1"
+        <figure><router-link to="/UC"><img src="/img/uc_present.png" alt="Projet Web 1"
               class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
           <figcaption></figcaption>
         </figure>
@@ -85,7 +83,7 @@
       <div class="m-4">
         <h3 class="text-3xl font-bold mb-2">Site web intégrant des graphiques ChartJS qui se basent sur des API publiques
         </h3>
-        <figure><router-link to="/ChartJS "><img src="/img/chartjs_present.png" alt="Projet Web 2"
+        <figure><router-link to="/ChartJS"><img src="/img/chartjs_present.png" alt="Projet Web 2"
               class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
           <figcaption></figcaption>
         </figure>
@@ -95,8 +93,8 @@
       </div>
 
       <div class="m-4">
-        <h3 class="text-3xl font-bold mb-2">Site web avec CMS(Prismic)</h3>
-        <figure><router-link to="/Prismic "><img src="/img/prismic_present.png" alt="Projet Web 2"
+        <h3 class="text-3xl font-bold mb-2">Site web avec CMS (Prismic)</h3>
+        <figure><router-link to="/Prismic"><img src="/img/prismic_present.png" alt="Projet Web 2"
               class="rounded-md mb-2 m-auto w-[50%]" /></router-link>
           <figcaption></figcaption>
         </figure>
