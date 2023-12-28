@@ -6,7 +6,6 @@
         <div>
             <router-link to="/Projets" class="mr-4">Mes projets</router-link>
             <router-link to="/Etudes" class="mr-4">Mes études</router-link>
-            <router-link to="/Contact" class="mr-4">Contact</router-link>
             <router-link to="/APropos" class="mr-4">À propos</router-link>
         </div>
     </nav>
