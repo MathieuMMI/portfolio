@@ -23,7 +23,7 @@
                 <h3 class="text-4xl font-bold mb-10">Formation</h3>
                 <p class="text-gray-700 text-left text-xl">Après le lycée, j'ai fait le choix de suivre la licence information parcours communication à
                     Villeneuve-d'Ascq et Roubaix.</p>
-                <img class="m-auto" src="../../public/img/infocom.jpg" />
+                <img class="m-auto" src="/img/infocom.jpg" />
                 <h3 class="text-4xl font-bold mb-10">Compétences</h3>
                 <ul class="pl-4 mt-2 mb-4">
                     <li>
@@ -43,7 +43,7 @@
             <div class="pb-12">
                 <h3 class="text-4xl font-bold mb-10">Formation</h3>
                 <p class="text-gray-700 text-left text-xl">Puis, j'ai choisi de me réorienter au département MMI de Montbéliard.</p>
-                <img class="m-auto" src="../../public/img/mmimontbe.png" />
+                <img class="m-auto" src="/img/mmimontbe.png" />
                 <h3 class="text-4xl font-bold mb-10">Compétences</h3>
                 <ul class="pl-4 mt-2">
                     <li>
