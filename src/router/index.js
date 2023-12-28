@@ -5,6 +5,7 @@ import APropos from '@/views/APropos.vue'
 import Etudes from '@/views/Etudes.vue'
 import Mentions from '@/views/Mentions.vue'
 import Projets from '@/views/Projets.vue'
+import Page404 from '@/views/Page404.vue'
 /* Projets*/
 import Swoss from '@/views/Projets/Swoss.vue'
 import Argimes from '@/views/Projets/Argimes.vue'
@@ -25,6 +26,7 @@ const router = createRouter({
     { path: '/Etudes', name: 'Etudes', component:  Etudes},
     { path: '/Mentions', name: 'Mentions', component:  Mentions},
     { path: '/Projets', name: 'Projets', component:  Projets},
+    { path: '/:pathMatch(.*)*', name: 'Page404', component: Page404 },
     /* Projets */
     { path: '/Swoss', name: 'Swoss', component:  Swoss},
     { path: '/Argimes', name: 'Argimes', component:  Argimes},
