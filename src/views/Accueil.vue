@@ -9,11 +9,18 @@
     <h2 class="text-3xl font-bold mb-20">Ils me recommandent</h2>
     <div class="mb-10">
       <h3 class="text-2xl font-bold mb-5">Pascal Chatonnay</h3>
-      <p class="text-lg text-gray-700 mb-5">Référent Défense et Sécurité Nationale (RDSN) de l'université de Franche-Comté, professeur en MMI à Montbéliard.</p>
-      <figure><img class=""><figure>Photographie de Pascal Chatonnay</figure></figure>
-      <a href="https://www.linkedin.com/in/pascalchatonnay/" class="text-center"><p class="text-lg text-gray-700">Voir le Linkedin</p></a>
+      <p class="text-lg text-gray-700 mb-5">Référent Défense et Sécurité Nationale (RDSN) de l'université de
+        Franche-Comté, professeur en MMI à Montbéliard.</p>
+      <figure><img src="/img/pchaton.jpg" alt="Photographie de mon carnet sur l'Intelligence Artificielle"
+          class="m-auto w-[25%]" />
+        <figcaption class="text-center">Mon carnet sur l'intelligence artificielle</figcaption>
+      </figure>
+      <a href="https://www.linkedin.com/in/pascalchatonnay/" class="text-center">
+        <p class="text-lg text-gray-700">Voir le Linkedin</p>
+      </a>
     </div>
-    <button class="text-2xl text-gray-700 mb-5" @click="telechargerPDF()">Télécharger la lettre de recommandation de Pascal Chatonnay</button>
+    <button class="text-2xl text-gray-700 mb-5" @click="telechargerPDF()">Télécharger la lettre de recommandation de
+      Pascal Chatonnay</button>
   </div>
 </template>
 
