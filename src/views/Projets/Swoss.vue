@@ -4,7 +4,7 @@
 
     <!-- Introduction -->
     <div class="mb-8">
-      <p class="text-gray-700 text-left text-xl">
+      <p class="ml-5 mr-5 text-gray-700 text-left text-xl">
         Cette page vous introduira au projet Swoss, réalisé au cours de mon second semestre avec un camarade de promotion.
         Pour résumer la consigne, nous devions créer un jeu sur Unreal Engine en utilisant au maximum les méthodes vues en
         cours, voire plus. Nous devions créer au choix, une map en Open World ou trois niveaux. Nous avons nous fait le
@@ -22,7 +22,7 @@
     </div>
 
     <div class="mb-8">
-      <p class="text-gray-700 text-left text-xl mb-5">
+      <p class="text-gray-700 ml-5 mr-5 text-left text-xl mb-5">
         Notre première tâche a été la confection du scénario et du lore. Nous avons donc décidé que le joueur a participé
         à une insurrection, puis s'est retrouvé dans un village et devait terminer cette dernière en éliminant le roi, ou
         plutôt le responsable des malheurs du peuple. Donc il va traverser divers endroits pour se rendre jusqu'à ce
@@ -31,7 +31,7 @@
     </div>
 
     <div class="mb-8">
-      <p class="text-gray-700 text-left text-xl mb-5">
+      <p class="text-gray-700 ml-5 mr-5 text-left text-xl mb-5">
         Notre seconde tâche a été de réaliser chacun un objet 3D sur Blender, comme il nous l'a été demandé. J'ai
         personnellemetn réalisé une épée en 3D, relativement simple d'apparence.</p>
       <figure>
@@ -42,7 +42,7 @@
 
     <!-- Section -->
     <div class="mb-8">
-      <p class="text-gray-700 text-left text-xl">
+      <p class="text-gray-700 ml-5 mr-5 text-left text-xl">
         Ensuite, nous avons réalisé les niveaux et mis en place leurs décors. Nous, nous avons fait le choix de réaliser 4
         niveaux. Pour ce faire, nous avons essentiellement
         utilisé Quixel Bridge pour importer des textures et des objets (ainsi que les outils d'Unreal Engine comme le
@@ -70,7 +70,7 @@
 
     <!-- Section -->
     <div class="mb-8">
-      <p class="text-gray-700 text-left text-xl mb-5">La troisième partie a concerné la mise en place des personnages et
+      <p class="text-gray-700 ml-5 mr-5 text-left text-xl mb-5">La troisième partie a concerné la mise en place des personnages et
         des
         scripts. Nous avions à intégrer des personnages 3D, leur appliquer un squelette via divers outils (utiliser le rig
         de Mixamo ou Accurig, en créer un nous-même sur Blender, retarget sur Unreal Engine, ..). Nous avons donc mis en
@@ -86,7 +86,7 @@
     </div>
 
     <!-- Conclusion -->
-    <p class="text-gray-700 text-left text-xl">Ce projet, bien qu'il n'a pas pu intégrer certaines fonctionnalités qu'on
+    <p class="text-gray-700 ml-5 mr-5 text-left text-xl">Ce projet, bien qu'il n'a pas pu intégrer certaines fonctionnalités qu'on
       aurait dû intégrer et contient quelques erreurs, nous a bien initié à l'usage d'Unreal Engine et nous a permis de
       nous familiariser avec les problématiques de développement de jeu vidéo (les collisions, paramétrer une IA, etc).
     </p>
