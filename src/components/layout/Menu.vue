@@ -37,4 +37,3 @@ window.addEventListener('resize', () => {
 });
 
 </script>
-  
