@@ -279,8 +279,7 @@
                         développer une IA qui se base sur l'apprentissage par renforcement. J'ai avant tout mis en
                         place
                         un environnement pour le jeu.</p>
-                    <pre class="mb-8 bg-gray-900 text-white p-4 rounded-md max-h-36 overflow-y-auto"><code>
-class MazeEnvironment:
+                    <pre class="mb-8 bg-gray-900 text-white p-4 rounded-md max-h-36 overflow-y-auto"><code>class MazeEnvironment:
     def __init__(self):
         self.width = 5
         self.height = 5
@@ -353,8 +352,7 @@ class MazeEnvironment:
                     <p class="text-gray-700 text-left text-xl mb-8">Puis, j'ai tenté de mettre en place le code pour
                         que
                         l'IA agisse et apprenne.</p>
-                    <pre class="mb-8 bg-gray-900 text-white p-4 rounded-md max-h-36 overflow-y-auto"><code>
-import numpy as np
+                    <pre class="mb-8 bg-gray-900 text-white p-4 rounded-md max-h-36 overflow-y-auto"><code>import numpy as np
 import gym
 import random
 from envExemple import MazeEnvironment
@@ -492,8 +490,7 @@ print("Moyenne des pas pour atteindre l'objectif sur", num_episodes, "parties :"
                             de
                             code</a>
                     </div>
-                    <pre class="mb-8 bg-gray-900 text-white p-4 rounded-md max-h-36 overflow-y-auto"><code>
-import pygame
+                    <pre class="mb-8 bg-gray-900 text-white p-4 rounded-md max-h-36 overflow-y-auto"><code>import pygame
 from pygame.locals import *
 import numpy as np
 from AI import q_table, choose_action, convert_observation_to_state, episode_reward  # Importez vos fonctions d'IA
