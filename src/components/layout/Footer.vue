@@ -10,7 +10,7 @@
                     <label for="message" class="sr-only">Message</label>
                     <textarea v-model="message" id="message" placeholder="Votre message"
                         class="py-2 px-4 mb-2 rounded-md text-gray-400" required></textarea>
-                    <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded-md">Envoyer</button>
+                    <button type="submit" class="bg-blue-500 text-white py-1 px-2 rounded-md text-lg w-[50%] m-auto">Envoyer</button>
                 </form>
             </div>
             <div class="flex flex-col items-center">

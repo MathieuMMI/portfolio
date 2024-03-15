@@ -11,7 +11,7 @@ export default {
 
 <style>
 .linkedin-logo {
-  max-width: 80px; 
+  max-width: 50px; 
   width: 100%; 
   height: auto;
 }

@@ -4,39 +4,10 @@
             <h2 class="text-5xl font-bold mb-10">Sujets étudiés et méthodes</h2>
             <div class="mb-8">
                 <p class="text-gray-700 text-left text-xl mb-14">Je vais ici vous parler des sujets que j'ai pu étudier,
-                    que ce soit dans le cadre de mon cursus universitaire ou dans mon apprentissage personnel. Je précise
+                    que ce soit dans le cadre de mon cursus universitaire ou dans mon apprentissage personnel. Je
+                    précise
                     qu'une partie de ces derniers a été travaillé de mon côté, afin de renforcer mon socle de
                     connaissance.</p>
-                <p class="text-gray-700 text-left text-xl">Mais avant cela, je souhaite vous présenter mes deux principaux
-                    moyens de progression, en dehours des cours de ma formation ou qu'on peut retrouver sur le web.</p>
-                <p class="text-gray-700 text-left text-xl mb-4">D'abord, il me semble important de vous présenter les
-                    carnets de note que j'utilise régulièrement. Notamment celui sur l'IA, et celui sur la programmation et
-                    les logiciels. Ces derniers sont à peu près. Le premier contient 262 pages de remplies, et le second
-                    108. Ils me servent à prendre des notes sur des sujets liés à ces thèmes et à les approfondir, et à les
-                    relire pour pouvoir solidifer mon socle de connaissances dessus. Je ne note pas, ou presque pas, des
-                    lignes de code dessus, mais plutôt des concepts, des réflexions, ou autre. J'ai aussi un carnet pour les
-                    définitions.</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <figure><img src="/img/blocknot_ai.jpg" alt="Photographie de mon carnet sur l'Intelligence Artificielle"
-                            class="m-auto w-[45%] -rotate-90" />
-                        <figcaption class="text-center">Mon carnet sur l'intelligence artificielle</figcaption>
-                    </figure>
-                    <figure><img src="/img/blocknot_defs.jpg" alt="Photographie de mon carnet de définitions" class="m-auto w-[50%] rotate-90" />
-                        <figcaption class="text-center">Mon carnet de définitions</figcaption>
-                    </figure>
-                </div>
-                <p class="text-gray-700 text-left text-xl mt-4">Le second outil que j'utilise, c'est la veille. Je fais une
-                    veille sur la technologie en général, une sur l'intelligence artificielle, une autre sur les logiciels
-                    3D et une sur les différents langages de programmation.</p>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                    <figure><img src="/img/veille_AI.png" alt="Image de ma veille sur l'Intelligence Artificielle"
-                            class="m-auto" />
-                        <figcaption class="text-center">Ma veille sur l'intelligence artificielle</figcaption>
-                    </figure>
-                    <figure><img src="/img/Veille_JV.png" alt="Image de ma veille sur le jeu vidéo" class="text-center" />
-                        <figcaption class="text-center">Ma veille sur les logiciels 3D</figcaption>
-                    </figure>
-                </div>
                 <!--Sous-partie 1-->
                 <div class="mb-36">
                     <h3 class="text-3xl font-bold mb-10 text-center">La 3D</h3>
@@ -46,7 +17,8 @@
                         <h4 class="text-2xl font-bold mb-2">Unreal Engine</h4>
                         <div>
                             <figure class="mb-5">
-                                <img src="/img/ue5.png" alt="Logo de Unreal Engine" class="mb-4 md:mb-0 w-[15%] m-auto" />
+                                <img src="/img/ue5.png" alt="Logo de Unreal Engine"
+                                    class="mb-4 md:mb-0 w-[15%] m-auto" />
                                 <figcaption class="text-center">Logo de Unreal Engine</figcaption>
                             </figure>
                             <p class="text-gray-700 text-left text-xl">J'ai eu l'occasion de travailler le logiciel
@@ -59,14 +31,16 @@
                                 extensions d'Unreal Engine, comme Water ou MetaHuman.
                                 J'ai aussi pu étudier la configuration d'Intelligences Artificielles ainsi que la mise
                                 en place d'un multijoueur. Enfin, j'ai appris à gérer la création de commandes,
-                                l'initialisation de la réalité virtuelle et le développement d'applications en 3D pour cet
+                                l'initialisation de la réalité virtuelle et le développement d'applications en 3D pour
+                                cet
                                 outil, et la génération d'APK.
                             </p>
                             <p class="text-gray-700 text-left text-xl">Pour voir plus en détail mes apprentissages, je
                                 vous renvoie aux différents projets basés sur Unreal Engine, notamment <router-link
                                     to="/Swoss" class="text-blue-500 underline">Swoss</router-link>, ou <router-link
                                     to="/UE" class="text-blue-500 underline">mon projet réalisé en SAE</router-link>.
-                                Vous pouvez aussi consulter <router-link to="/VR" class="text-blue-500 underline">mon projet
+                                Vous pouvez aussi consulter <router-link to="/VR" class="text-blue-500 underline">mon
+                                    projet
                                     en VR</router-link>.</p>
                         </div>
                     </div>
@@ -85,12 +59,14 @@
                                 des os, les animer, les exporter vers des logiciels comme Unreal Engine ou Godot.
                                 Enfin, j'ai appris à gérer le texturage et la création de matériaux sur Blender.
                             </p>
-                            <p class="text-gray-700 text-left text-xl">Voilà un exemple de réalisation 3D que j'ai faite sur
+                            <p class="text-gray-700 text-left text-xl">Voilà un exemple de réalisation 3D que j'ai faite
+                                sur
                                 Blender.</p>
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <img src="/img/baleine.png" alt="baleine">
                                 <p class="text-gray-700 text-left text-xl">J'ai réalisé une baleine en 3D, en suivant
-                                    différentes étapes (modélisations, scult..). Je n'ai pas été jusqu'à lui appliquer un
+                                    différentes étapes (modélisations, scult..). Je n'ai pas été jusqu'à lui appliquer
+                                    un
                                     squelette et des animations, mais je pense avoir plutôt bien avancé.</p>
                             </div>
                         </div>
@@ -112,12 +88,12 @@
                             retrouver ci-dessous les exerices réalisés avec le logiciel à l'aide de la
                             documentation.</p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                            <figure><img src="/img/godot_2d.png" alt="Image de l'exercice réalisé pour un jeu Godot en 2D"
-                                    class="m-auto">
+                            <figure><img src="/img/godot_2d.png"
+                                    alt="Image de l'exercice réalisé pour un jeu Godot en 2D" class="m-auto">
                                 <figcaption class="text-center"></figcaption>
                             </figure>
-                            <figure><img src="/img/godot_3d.png" alt="Image de l'exercice réalisé pour un jeu Godot en 3D"
-                                    class="m-auto">
+                            <figure><img src="/img/godot_3d.png"
+                                    alt="Image de l'exercice réalisé pour un jeu Godot en 3D" class="m-auto">
                                 <figcaption class="text-center"></figcaption>
                             </figure>
                         </div>
@@ -133,7 +109,8 @@
                         <p class="text-gray-700 text-left text-xl">J'ai pu acquérir quelques bases en 3d max lors de
                             mes cours de seconde année, avec la création d'un livre, que vous pouvez retrouver
                             ci-contre.</p>
-                        <p class="text-gray-700 text-left text-xl  mb-5">Vous pouvez retrouver ci-dessous un screenshot de
+                        <p class="text-gray-700 text-left text-xl  mb-5">Vous pouvez retrouver ci-dessous un screenshot
+                            de
                             l'exercice réalisé sur 3d max.</p>
                         <figure><img src="/img/livre.png" alt="Photographie d'un livre réalisé sur 3dMax"
                                 class="rounded-md mb-4 md:mb-0 m-auto w-[25%]" />
@@ -235,7 +212,8 @@
                             class="rounded-md mb-4 md:mb-0 w-[25%] m-auto" />
                         <figcaption class="text-center">Logo de Python</figcaption>
                     </figure>
-                    <figure><img src="/img/java.png" alt="Logo de Java" class="rounded-md mb-4 md:mb-0 w-[20%] m-auto" />
+                    <figure><img src="/img/java.png" alt="Logo de Java"
+                            class="rounded-md mb-4 md:mb-0 w-[20%] m-auto" />
                         <figcaption class="text-center">Logo de Java</figcaption>
                     </figure>
                     <figure><img src="/img/c++.png" alt="Logo du C++" class="rounded-md mb-4 md:mb-0 w-[25%] m-auto" />
@@ -701,6 +679,44 @@ print("Moyenne des pas pour atteindre l'objectif sur", num_episodes, "parties ga
 average_reward = sum(total_rewards) / len(total_rewards)
 print("Moyenne des récompenses sur", num_episodes, "parties :", average_reward)
                         </code></pre>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold mb-2 text-center">Méthodes d'apprentissage</h3>
+                <p class="text-gray-700 text-left text-xl mb-4">Il me semble important de vous présenter les
+                    carnets de note que j'utilise régulièrement. Notamment celui sur l'IA, et celui sur la programmation
+                    et
+                    les logiciels. Ces derniers sont à peu près. Le premier contient 262 pages de remplies, et le second
+                    108. Ils me servent à prendre des notes sur des sujets liés à ces thèmes et à les approfondir, et à
+                    les
+                    relire pour pouvoir solidifer mon socle de connaissances dessus. Je ne note pas, ou presque pas, des
+                    lignes de code dessus, mais plutôt des concepts, des réflexions, ou autre. J'ai aussi un carnet pour
+                    les
+                    définitions.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <figure><img src="/img/blocknot_ai.jpg"
+                            alt="Photographie de mon carnet sur l'Intelligence Artificielle"
+                            class="m-auto w-[45%] -rotate-90" />
+                        <figcaption class="text-center">Mon carnet sur l'intelligence artificielle</figcaption>
+                    </figure>
+                    <figure><img src="/img/blocknot_defs.jpg" alt="Photographie de mon carnet de définitions"
+                            class="m-auto w-[50%] rotate-90" />
+                        <figcaption class="text-center">Mon carnet de définitions</figcaption>
+                    </figure>
+                </div>
+                <p class="text-gray-700 text-left text-xl mt-4">Le second outil que j'utilise, c'est la veille. Je fais
+                    une veille sur la technologie en général, une sur l'intelligence artificielle, une autre sur les
+                    logiciels 3D et une sur les différents langages de programmation. Je la mets à jour en fonction des
+                    progrès que je réalise à force d'utiliser des technologies et logiciels variés.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                    <figure><img src="/img/veille_AI.png" alt="Image de ma veille sur l'Intelligence Artificielle"
+                            class="m-auto" />
+                        <figcaption class="text-center">Ma veille sur l'intelligence artificielle</figcaption>
+                    </figure>
+                    <figure><img src="/img/Veille_JV.png" alt="Image de ma veille sur le jeu vidéo"
+                            class="text-center" />
+                        <figcaption class="text-center">Ma veille sur les logiciels 3D</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
